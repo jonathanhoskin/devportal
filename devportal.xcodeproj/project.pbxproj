@@ -13,6 +13,7 @@
 		AB62AE2C1C210456007F457C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62AE2A1C210456007F457C /* Main.storyboard */; };
 		AB62AE2E1C210456007F457C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB62AE2D1C210456007F457C /* Assets.xcassets */; };
 		AB62AE311C210456007F457C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB62AE2F1C210456007F457C /* LaunchScreen.storyboard */; };
+		AB62AE391C2105AA007F457C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB62AE381C2105AA007F457C /* WebKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		AB62AE2D1C210456007F457C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB62AE301C210456007F457C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB62AE321C210456007F457C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB62AE381C2105AA007F457C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB62AE391C2105AA007F457C /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		AB62AE151C210456007F457C = {
 			isa = PBXGroup;
 			children = (
+				AB62AE381C2105AA007F457C /* WebKit.framework */,
 				AB62AE201C210456007F457C /* devportal */,
 				AB62AE1F1C210456007F457C /* Products */,
 			);
@@ -300,6 +304,7 @@
 				AB62AE371C210456007F457C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
